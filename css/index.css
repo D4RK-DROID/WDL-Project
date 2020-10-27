@@ -1,0 +1,453 @@
+body {
+	background: #FFF;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 19px;
+	color: #FCFCFC;
+}
+
+#header-nav {
+	background: #62618A;
+	width:auto;
+	height: auto;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#logo {
+	background: url("../images/logo-70.png") no-repeat;
+	width: 70px;
+	height: 70px;
+	margin: 10px 10px 10px 0;
+}
+
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	color: #FFF;
+	font-family: 'Lora', serif;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.75;
+	font-size: 2.3em;
+	text-shadow: 2px 2px 2px #222;
+	text-transform: uppercase; 
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px; 
+}
+
+#nav-list a {
+	color: #FFF;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#nav-list a:hover, #nav-list a:active  {
+	border-bottom: 2px solid #FFF;
+}
+
+#tiles {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#tiles p {
+	padding-bottom: 10px;
+}
+
+.navbar .navbar-header button {
+	border: 1px solid #FFF;
+	margin-top: 21px;
+}
+
+.navbar .navbar-header button .icon-bar {
+	background: #FFF ;
+}
+
+
+.navbar-collapse {
+	border: none;
+	box-shadow: none;
+}
+
+.navbar .navbar-header button:hover, .navbar .navbar-header button:focus {
+	background: #484767;
+	border: none;
+}
+
+.container #tiles #description {
+	clear: left;
+}
+
+.container #tiles #laptop-image {
+	float: right;
+}
+.center {
+	height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    display: block;
+}
+
+#Blog {
+	background: #F7F7F7;
+	margin-top: 0;
+	padding: 0;
+	width: 100%;
+	padding-bottom: 25px; 
+}
+
+#Blog h1 {
+	font-size: 2.8em;
+	color: #62618A;
+	font-family: 'Monoton', cursive;
+	text-align: center;
+}
+
+#Blog p {
+	color: #424242;
+}
+
+#Blog #Blog-1 {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+#main-content {
+	padding-bottom: 25px;
+}
+
+#main-content #tech-img .center {
+	display: block;
+	box-shadow: 0 10px 20px #62618A;
+	width: 90%;
+	height: 280px;
+	margin: 50px auto 50px;
+}
+
+#main-content #tech-img .center:hover {
+	box-shadow: 0 10px 20px #000;
+}
+
+#main-content #tech-wrt {
+	margin-top: 25px;
+}
+
+#main-content #tech-wrt a {
+	color: #424242;
+	font-weight: 600;
+}
+
+#main-content #tech-wrt a:hover {
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #222; 
+}
+
+#main-content #tech-wrt a h2 {
+	font-family: 'Monoton', cursive;
+	color: #62618A;
+	text-align: center;
+}
+
+#main-content2-bg {
+	background: #F7F7F7;
+	padding-bottom: 25px; 
+}
+
+#main-content2 #sec-img .center {
+	display: block;
+	box-shadow: 0 15px 25px #62618A;
+	width: 90%;
+	height: 280px;
+	margin: 50px auto 50px;
+}
+
+#main-content2 #sec-img .center:hover {
+	box-shadow: 0 15px 25px #222;
+}
+
+
+#main-content2 #sec-wrt {
+	margin-top: 25px;
+}
+
+#main-content2 #sec-wrt a {
+	color: #424242;
+	font-weight: 600;
+}
+
+#main-content2 #sec-wrt a:hover {
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #222; 
+}
+
+#main-content2 #sec-wrt a h2 {
+	font-family: 'Monoton', cursive;
+	color: #62618A;
+	text-align: center;
+}
+#main-content2 #sec-wrt {
+	clear: left;
+}
+
+#main-content2 #sec-img {
+	float: right;
+}
+
+.panel-footer {
+	background: #424242;
+	border: 0;
+}
+
+#Project, #Design {
+	text-align: center;
+	color: #a5a5a5;
+}
+
+.panel-footer span {
+	font-weight: 700;
+	display: block;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	text-align: center;
+	color: #e4e4e4;
+}
+
+.panel-footer #Project hr, .panel-footer #Design hr {
+	margin: 25px auto 25px;
+	width: 50%;
+}
+
+/*TechSec Blogs*/
+#blog-headings {
+	background: #F7F7F7;
+	color: #424242;
+}
+
+#blog-headings h1 {
+	font-size: 1.8em;
+	color: #62618A;
+	font-family: 'Monoton', cursive;
+	text-align: center;
+}
+
+#blog-headings h2 {
+	font-weight: 900;
+}
+
+#blog-headings hr {
+	height: 1px;
+	background-color: #424242;
+	border: none;
+}
+
+#blog-content {
+	background: #F7F7F7;
+	color: #424242; 
+	padding-bottom: 25px;
+}
+
+#blog-content .blog h3{
+	font-weight: 900;
+}
+
+#blog-content .blogtxt {
+	margin: 10px auto;
+	opacity: 0.8;
+	font-size: 0.8em;
+}
+
+#blog-content .blogimg .center {
+	display: block;
+	box-shadow: 10px 10px 15px #222;
+	width: 90%;
+	height: 200px;
+	margin: 10px auto 10px;
+}
+
+#blog-content .blogimg div {
+	font-size: 0.7em;
+	opacity: 0.8;
+	float: right;
+	padding-top: 40px; 
+}
+
+#blog-content .blogimg div p {
+	font-size: 1.2em;
+	opacity: 1;
+	font-weight: 600;
+}
+
+#blog-content hr {
+	height: 1px;
+	background-color: #424242;
+	border: 0;
+}
+
+/*Tech Pages*/
+
+#tech-headings {
+	background: #F7F7F7;
+	color: #424242;
+}
+
+#tech-headings h1 {
+	font-size: 1.8em;
+	color: #62618A;
+	font-family: 'Monoton', cursive;
+	text-align: center;
+}
+
+.tech-content {
+	background: #FFF;
+	color: #424242;
+	padding-top: 15px; 
+}
+
+.tech-content .tech h3{
+	text-align: center;
+	font-weight: 900;
+	margin-top: 0;
+}
+
+.tech-content .techtxt {
+	text-align: justify;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.tech-content .techimg .center {
+	display: block;
+	padding: 7px 15px 0 0;
+	width: 90%;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.tech-content .techimg {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+#tc2 .techtxt {
+	clear: left;
+}
+
+#tc2 .techimg {
+	float: right;
+}
+#tc1, #tc3, #tc5 {
+	background-color: #FFF;
+	padding: 15px auto;
+}
+
+#tc2, #tc4 {
+	background-color: #F7F7F7;
+	padding: 15px auto;
+
+}
+/*SEC Pages*/
+
+#sec-headings {
+	background: #F7F7F7;
+	color: #424242;
+}
+
+#sec-headings h1 {
+	font-size: 1.8em;
+	color: #62618A;
+	font-family: 'Monoton', cursive;
+	text-align: center;
+}
+
+#sc1 .sec, #sc2 .sec {
+	text-align: center;
+	font-size: 2em;
+	line-height: 134px;
+	position: relative;
+	top: 50%;
+}   
+#sc2 .sectxt {
+	clear: left;
+}
+
+#sc2 .sec {
+	float: right;
+}
+
+#sc1{
+	background-color: #FFF;
+	padding-bottom: 25px;
+}
+
+#sc2 {
+	background-color: #F7F7F7;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+	body {
+		font-size: 16px;
+	}
+	#nav-list a:hover, #nav-list a:active  {
+		background: #484767;
+		border: none;
+	}
+	.container #tiles #description p {
+		font-size: 16px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.center {
+		height: 200px;
+	}
+
+	#main-content #tech-img {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	#main-content #tech-wrt {
+		margin-top: -40px;
+		padding-top: 0; 
+	}
+
+	#main-content2 #sec-img {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	#main-content2 #sec-wrt {
+		margin-top: -40px;
+		padding-top: 0; 
+	}
+
+	#blog-content .blog {
+		text-align: center;
+	}
+
+	#blog-content .blogimg .center {
+		height: 150px;
+	}
+
+	#sc1 .sec {
+		line-height: 100%;
+	} 
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+		font-size: 16px;
+	}
+}
